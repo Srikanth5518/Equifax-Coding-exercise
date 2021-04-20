@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<classes>
+			<class name="StepDefinition.TestRunner" />
+			<!-- <class name="StepDefinition.TestRunnerRerun"/> -->
+		</classes>
+	</test> <!-- Test -->
+
+	<!-- <listeners>
+		<listener class-name="Utilities.MyTestListener"></listener>
+	</listeners> -->
+</suite> <!-- Suite -->
+
+
+<!-- https://howtodoinjava.com/testng/how-to-execute-testng-tests-with-maven-build/ -->
